@@ -30,6 +30,7 @@ namespace GAME.Level
         //init level
         private void InitializeLevel()
         {
+            
             LevelInitialized?.Invoke();
         }
     }
